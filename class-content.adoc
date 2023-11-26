@@ -1,0 +1,36 @@
+= Class Content
+:toc: manual
+
+== Text Mining and NLP overview
+
+* https://github.com/kylinsoong/tm23projects
+* PyTorch
+
+== Deep Learning Model
+
+=== Convolutional Neural Network (CNN)
+
+Convolutional Neural Networks (CNNs) are a type of deep learning model particularly effective in image processing and recognition tasks. CNNs are designed to automatically and adaptively learn spatial hierarchies of features directly from image data.
+
+=== Recurrent Neural Network (RNN)
+
+Recurrent Neural Networks (RNNs) are a type of deep learning model particularly suited for sequence data, making them applicable to tasks such as natural language processing, time series analysis, and speech recognition.
+
+=== Long Short-Term Memory (LSTM) 
+
+Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) architecture designed to address the vanishing gradient problem and capture long-range dependencies in sequential data. LSTMs have proven particularly effective in various tasks such as natural language processing, time series prediction, and speech recognition.
+
+=== Transformer - Attention and Self Attention
+
+Attention was first introduced in the context of machine translation. The idea is that when translating a sentence from one language to another, the model should not pay attention to all of the words in the source sentence equally. Instead, it should focus on the words that are most relevant to the meaning of the sentence.
+
+This is achieved by using a mechanism called "attention weights." These weights are assigned to each word in the source sentence, and they indicate how important that word is to the meaning of the sentence. The model then uses these weights to compute a weighted sum of the word representations, which is used to generate the corresponding word in the target sentence.
+
+Self-attention is a more recent development, and it has been particularly successful in the context of language modeling. The idea of self-attention is that a model can learn the relationships between words in a sentence by attending to the other words in the sentence.
+
+This is achieved by using a mechanism called "self-attention heads." Each self-attention head learns a different set of relationships between words, and the model uses the outputs of all of the heads to make predictions.
+
+== Grading
+
+* Class project(70%(50% report + 20% demo))
+* Final Exam(30%)
